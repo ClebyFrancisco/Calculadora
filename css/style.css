@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'alarm_clockregular';
+    src: url('./fonts/alarm_clock-webfont.woff2') format('woff2'),
+         url('./fonts/alarm_clock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+   margin: 0;
+
+}
+.calculadora {
+    margin:20px auto;
+    width: 500px;
+    background-color: rgb(126, 180, 255);
+    padding:20px;
+    border-radius: 8px;
+}
+#visor {
+    width: 500px;
+    font-size: 70px;
+    font-family: 'alarm_clockregular';
+    background-color: #fff;
+    /*border: 1px solid rgb(83, 81, 81);*/
+    border-radius: 4px;
+    height: 100px;
+}
+.porc {
+    font-size: 8px;
+}
+.teclado--linha {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.teclado--botao {
+    width:70px;
+    height: 40px;
+    background-color: rgb(247, 246, 239);
+    color: #000;
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    /*box-shadow: 2px 2px 0px rgb(148, 148, 148);*/
+}
+.teclado--botao.dark {
+    background-color:rgb(192, 192, 192)
+}.teclado--botao.blue{
+    background-color: rgb(32, 69, 179);
+    color: white;
+    /*box-shadow: 2px 2px 0px rgba(32, 67, 112, 0.671);*/
+}
