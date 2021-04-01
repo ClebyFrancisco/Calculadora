@@ -13,5 +13,8 @@ function calcular(){
     document.calc.visor.value = resultado;
 
 }
-
+document.getElementById("porc").onclick = function(){
+   var porcent = "*(1/100)*";
+   return porcent;
+}
 
